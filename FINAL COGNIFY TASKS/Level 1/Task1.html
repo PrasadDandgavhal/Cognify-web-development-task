@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        .logo{
+            font-size: 2rem;
+            color:rgb(255, 117, 5)            
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            margin: 5px;
+        }
+        ul{
+            display: flex;            
+        }
+        li{
+            padding: 15px;
+            list-style-type:none;
+        }
+        a{
+            text-decoration: none;
+            color:#000;
+        }
+        #sec1,#sec2{
+            width: 100%;
+            height: 60vh;
+            text-align: center;
+            padding: 4rem 0px;
+           
+
+            font-size: 1rem;
+            background-color: rgb(243, 64, 118);     
+            color: aliceblue;
+            font-family: 'Courier New', Courier, monospace;
+        
+        }
+        .scroll{
+            margin-top: 15%;
+
+        }
+        .para{
+            margin: 0 15rem;
+        }
+        #sec2{
+            background-color: #fff;
+            color: #000;
+            height: 80vh;    
+        }
+        #sec3{
+            color:#000;
+            background-color: rgb(46, 201, 221);
+            padding: 50px;
+            
+            
+        }
+        .form_title{
+            text-align: center;
+
+        }
+        form{
+            background-color: #fff;
+            border-radius: 50px;
+            padding: 20px;
+            width:250px;
+            margin: 5px auto;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="logo">
+            Simple Web Page
+        </h1>
+        <ul>
+            <li>
+                <a href="#sec1">Home</a>
+            </li>
+            <li>
+                <a href="#sec2">content</a>
+            </li>
+            <li>
+                <a href="#sec3">Form</a>
+            </li>
+        </ul>
+
+    </header>
+    <section id="sec1">
+        <h1>HTML<br>HyperText Markup Language</h1>
+        <h1>Introduction</h1>
+        <p class="para">Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.</p>
+        <p class="scroll">Thank You..!</p>
+    </section>
+    <section id="sec2">
+        <img src="xuv700.jpeg" alt=" " width="30%">
+        <h1>MAHINDRA XUV 700 </h1>
+        <a href="https://auto.mahindra.com/own-online/variant-selection?pid=X700">Click Here For More...</a>
+        <p class="scroll">Scroll here</p>
+    </section>
+    <section id="sec3">
+        <h1 class="form_title">Student Query Form</h1>
+        <form >
+            <label for="name">Name:</label><br>
+            <input type="text" id="name"><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" id="email"><br>
+            <label for="quires">Quires</label><br>
+            <textarea name="quires" id="quires" cols="30" rows="10"></textarea><br>
+            <center><input type="submit" value="submited"></center>
+
+        </form>
+    </section>
+
+</body>
+</html>

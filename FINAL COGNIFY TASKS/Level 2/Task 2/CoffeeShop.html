@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prasad's Coffee Shop</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #f0f0f0;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    nav ul {
+      list-style: none;
+      align-content: center;
+      margin: 0;
+      padding-top: 50px;
+      display: flex;
+    }
+    
+    nav li {
+      margin-right: 20px;
+    }
+    
+    nav a {
+     
+      color: #337ab7;
+      text-decoration: none;
+    }
+    
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    section {
+      background-color: #fff;
+      padding: 20px;
+      margin: 20px;
+      width: 300px;
+    }
+    
+    h1, h2 {
+      margin-top: 0;
+    }
+    
+    img {
+      max-width: 160px;
+      height: 150px;
+      margin: 20px;
+    }
+
+    @media (min-width: 1200px) {
+      main {
+        flex-direction: row;
+      }
+      section {
+        width: 400px;
+        margin: 40px;
+      }
+      img {
+        width: 50%;
+        margin: 40px;
+      }
+    }
+    
+    @media (min-width: 768px) and (max-width: 1199px) {
+      main {
+        flex-direction: column;
+      }
+      section {
+        width: 300px;
+        margin: 20px;
+      }
+      img {
+        width: 40%;
+        margin: 20px;
+      }
+    }
+    
+    @media (max-width: 767px) {
+      main {
+        flex-direction: column;
+      }
+      section {
+        width: 100%;
+        margin: 10px;
+      }
+      img {
+        width: 30%;
+        margin: 10px;
+      }
+      nav ul {
+        flex-direction: column;
+        
+      }
+      nav li {
+        margin-right: 0;
+      }
+      
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 style="color: #339db7;">Prasad's Coffee Shop</h1>
+  </header>
+  <nav>
+    <ul class="nav1">
+      <li><a href="#" style="align-content: center;">Home</a></li>
+      <li><a href="#">Menu</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section>
+      <h2 style="color: rgb(255, 238, 0);">Our Story</h2>
+      <p>Welcome to Prasad's Coffee Shop, where every sip is a delight! Our story began with a passion for coffee and a dream to create a cozy atmosphere where friends and family could gather.</p>
+      <img class="img1" src="coffe.jpeg" alt="Coffee Shop Image">
+    </section>
+    <section>
+      <h2 style="color: rgb(255, 238, 0);">Menu Highlights</h2>
+      <ul>
+        <li>Cappuccino: Espresso, steamed milk, and a layer of foam</li>
+        <li>Latte: Espresso and steamed milk</li>
+        <li>Mocha: Espresso, steamed milk, and chocolate syrup</li>
+      </ul>
+      <img src="coffee.jpg" alt="Coffee Cup Image">
+    </section>
+    <section>
+      <h2 style="color: rgb(255, 238, 0);">Special Offers</h2>
+      <p>Get 10% off on all drinks during happy hour (2pm-5pm)</p>
+      <p>Free Wi-Fi for all customers</p>
+      <img src="coffee2.jpg" alt="Coffee Shop Promo Image">
+    </section>
+  </main>

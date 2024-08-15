@@ -1,0 +1,9 @@
+.img1{
+    height: 180px;
+    width: 155px;
+    
+}
+
+.img1:hover{
+transform: scale(1.5);
+}

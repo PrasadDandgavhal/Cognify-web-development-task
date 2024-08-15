@@ -1,0 +1,45 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+
+.container{
+     max-width: 80vw;
+}
+
+.navbar li{
+     list-style: none;
+     margin: 0 12px;
+}
+
+.navbar{
+     display: flex;
+     height: 67px;
+     font-family: "Gupter", serif;
+     font-size: 20px;
+}
+
+.top-left{
+     width: 50%;
+     margin-top: 100px;
+    
+}
+
+.top-right{
+     width: 50%;
+     padding-left: 10px;
+}
+
+.section1{
+    max-height:100vh;
+    
+}
+.section2{
+     padding-left: 63xpx;
+     padding-right: 63xpx;
+}
+
+.section3{
+     max-height:100vh;
+     margin-bottom: 25px;
+}
